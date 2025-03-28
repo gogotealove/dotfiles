@@ -1,9 +1,1 @@
-### all ignore ###
-/*
-/.**
-
-## white list ###
-!/.bash_profile
-!/.bashrc
-!/.gitignore
-!/install.sh
+# ~/dotfiles/.gitignore
