@@ -84,3 +84,6 @@ atcoder_abc() {
   cd "$ATCODER_DIR/ABC/abc$1/a" && code main.py
 }
 alias abc=atcoder_abc
+alias accn="acc n"
+alias accs="acc s main.py -- --guess-python-interpreter pypy"
+alias ojt="oj t -c \"python ./main.py\" -d ./tests/"
