@@ -74,7 +74,7 @@ setopt UNSET                # 空の変数を空白として扱う
 setopt FLOW_CONTROL         # Ctrl+S/Q のフロー制御を無効化
 setopt TRANSIENT_RPROMPT    # コマンド実行後に右プロンプトを削除
 
-. "$HOME/.local/bin/env"
+# . "$HOME/.local/bin/env"
 
 # =============================================================================
 # for AtCoder
