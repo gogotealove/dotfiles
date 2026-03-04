@@ -15,7 +15,7 @@ bindkey -v
 
 # プロンプトの設定
 autoload -U colors && colors
-PROMPT='%F{cyan}%n@%m%f:%F{blue}%~%f %# '
+PROMPT='%F{242}%D{%H:%M:%S}%f %F{cyan}%~%f %F{yellow}${VIRTUAL_ENV:+($VIRTUAL_ENV:t) }%f%# '
 
 # 補完の有効化
 autoload -U compinit && compinit
